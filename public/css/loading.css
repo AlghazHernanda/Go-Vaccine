@@ -5,16 +5,13 @@ main{
 
 }
 
-body{
+body {
     background-size: 60%;
     background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
     background-position: center;
     background-position-y: 30px;
-    
-    
-    
+    justify-content: center;
+    align-items: center;
 }
 
 nav{
