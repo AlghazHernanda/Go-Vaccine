@@ -6,10 +6,10 @@ main{
 }
 
 body{
-    background-size: 10%;
+    background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 5px;
+    background-position-y: 50px;
 }
 
 nav{
