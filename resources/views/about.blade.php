@@ -10,6 +10,7 @@
 </head>
 
 <body>
+@include('header')
     <h1>Halaman About</h1>
     <h3>Alghaz Hernanda</h3>
     <p>alghaz.h@gmail.com</p>

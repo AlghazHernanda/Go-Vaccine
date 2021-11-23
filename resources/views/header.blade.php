@@ -26,9 +26,9 @@
                         <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/register">Daftar<a>
                     </li>
                     <!-- Else Sudah login-->
-                    <li class="nav-item" style="background-color: #70ccb4; ">                   
+                    <!-- <li class="nav-item" style="background-color: #70ccb4; ">                   
                         <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/profil">User<a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

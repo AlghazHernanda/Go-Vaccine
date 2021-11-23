@@ -11,7 +11,7 @@
 </head>
 
 <body style="background-image:url(https://i.ibb.co/yQfWFDB/Background.jpg);">
-@include('header')
+    @include('header')
     <div class="landing page awal" style=" width:50% ; ">
         <div class="infromasi landing page" id="informasi-awal">
             <p>Mari <b style="color: #038E79;"> Vaksin </b></p>

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-@include('header')
+    @include('header')
     <nav style="padding: 40px;">
         <p></p>
     </nav>
