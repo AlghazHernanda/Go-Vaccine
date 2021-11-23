@@ -15,7 +15,7 @@
 
 <!-- navbar -->
 
-<body>
+<body >
   <nav class="navbar navbar-expand-lg navbar-dark shadow " style="background-color: #70ccb4;">
     <div class="container" style="font-family:Montserrat;">
       <b class="navbar-brand" style="font-size: 30px; font-family: arial;" href="#">Govac</b>
@@ -31,7 +31,7 @@
             <a class="nav-link" href="#" style="margin-right: 50px; color: white; border-radius: 110px;">Vaksin</a>
           </li>
           <li class="nav-item" style="background-color: #70ccb4; ">
-            <button style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;">Profil</button>
+            <button style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm">Profil</button>
 
           </li>
         </ul>

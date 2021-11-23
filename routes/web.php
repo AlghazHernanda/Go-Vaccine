@@ -41,3 +41,7 @@ Route::get('/lokasi', function () {
 Route::get('/profil', function () {
     return view('para_pengguna');
 });
+
+Route::get('/loading', function () {
+    return view('govac_loading');
+});

@@ -1,0 +1,35 @@
+main{
+    width: 70%;
+    height: 430px;
+    display: flex;
+
+}
+
+body{
+    background-size: 45%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+nav{
+    size: 100%;
+}
+
+footer{
+    font-family: montserrat ; 
+    height:auto ; 
+    width: 100%;
+    background-color: #70ccb4; 
+    padding: 18px; text-align: center;
+    color: white;
+    position:absolute ;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
