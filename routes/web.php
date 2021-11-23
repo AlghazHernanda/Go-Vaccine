@@ -48,3 +48,7 @@ Route::get('/landing', function () {
 Route::get('/pengguna', function () {
     return view('govac_para_pengguna');
 });
+
+Route::get('/loading', function () {
+    return view('govac_loading');
+});
