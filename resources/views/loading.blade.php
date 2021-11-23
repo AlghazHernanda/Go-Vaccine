@@ -7,16 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/loading.css">
-    <title>Halaman Loading</title>
+    <link rel="stylesheet" href="css/loadingStyle.css">
+    <title>Form Loading</title>
 </head>
 
-<body style="background-image:url(img/background.jpg)">
+<body style="background-image:url(img/loading_background.jpg)">
     @include('header')
     <nav style="padding: 40px;">
         <p></p>
     </nav>
-
     
     <footer>
         Copyright 2021 Himatif Unpad

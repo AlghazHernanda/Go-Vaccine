@@ -5,13 +5,11 @@ main{
 
 }
 
-body {
-    background-size: 60%;
+body{
+    background-size: 10%;
     background-repeat: no-repeat;
     background-position: center;
-    background-position-y: 30px;
-    justify-content: center;
-    align-items: center;
+    background-position-y: 5px;
 }
 
 nav{
@@ -32,3 +30,7 @@ footer{
     align-items: center;
     
 }
+
+
+
+
