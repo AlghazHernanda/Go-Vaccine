@@ -6,10 +6,12 @@ main{
 }
 
 body{
-    background-size: 45%;
+    background-size: 70%;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
+    background-position: center;
+    background-position-y: 30px;
     
     
     
