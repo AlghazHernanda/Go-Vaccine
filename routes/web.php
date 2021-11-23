@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('home');
+    return view('landingPage');
 });
 
 Route::get('/about', function () {
@@ -25,26 +26,18 @@ Route::get('/blog', function () {
     return view('posts');
 });
 
-
-
-
-
 Route::get('/login', function () {
-    return view('govac_login');
+    return view('login');
 });
 
-Route::get('/pendaftaran', function () {
-    return view('govac_pendaftaran');
+Route::get('/register', function () {
+    return view('pendaftaran');
 });
 
-Route::get('/halaman', function () {
-    return view('govac_halaman_vaksin');
+Route::get('/lokasi', function () {
+    return view('halaman_vaksin');
 });
 
-Route::get('/landing', function () {
-    return view('govac_landingPage');
-});
-
-Route::get('/pengguna', function () {
-    return view('govac_para_pengguna');
+Route::get('/profil', function () {
+    return view('para_pengguna');
 });
