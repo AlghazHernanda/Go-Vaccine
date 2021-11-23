@@ -43,5 +43,5 @@ Route::get('/profil', function () {
 });
 
 Route::get('/loading', function () {
-    return view('govac_loading');
+    return view('loading');
 });
