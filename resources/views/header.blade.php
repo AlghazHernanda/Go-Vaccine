@@ -21,8 +21,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#" style="margin-right: 50px; color: white; border-radius: 110px;">Vaksin</a>
                     </li>
+                    <!-- IF BELOM LOGIN -->
                     <li class="nav-item" style="background-color: #70ccb4; ">                   
                         <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/register">Daftar<a>
+                    </li>
+                    <!-- Else Sudah login-->
+                    <li class="nav-item" style="background-color: #70ccb4; ">                   
+                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/profil">User<a>
                     </li>
                 </ul>
             </div>
