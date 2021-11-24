@@ -39,6 +39,13 @@
     <nav style="padding: 40px;">
         <p></p>
     </nav>
+
+    <div class="text-center">
+        <a href="/lokasi">
+        <button type="button" class="btn btn-danger" style="color: white;font-size:20px;">Daftar Vaksinasi
+    </button>
+    </a>
+</div>
     
     <footer>
         Copyright 2021 Himatif Unpad

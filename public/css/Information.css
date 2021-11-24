@@ -28,10 +28,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 85%;
+    margin-top: 5%;
     
 }
 
+button {
+    margin-top: 85%;
+    font-family: 'montserrat';
+}
 
 
 
