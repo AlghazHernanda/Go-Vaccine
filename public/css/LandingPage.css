@@ -15,7 +15,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 85%;
     
 }
 #informasi-awal {
@@ -50,6 +49,13 @@ button{
     font-weight: normal;
 }
 
+.tombol-daftar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70%;
+    margin-bottom: 3%;
+}
 
 
 
