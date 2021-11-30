@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,17 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::resource('user', UsersController::class);
 
 Route::get('/', function () {
-    return view('landingPage');
+    return view('index');
 });
 
 Route::get('/about', function () {
     return view('about');
-});
-
-Route::get('/blog', function () {
-    return view('posts');
 });
 
 Route::get('/login', function () {
@@ -31,15 +29,15 @@ Route::get('/login', function () {
 });
 
 Route::get('/register', function () {
-    return view('pendaftaran');
+    return view('register');
 });
 
-Route::get('/lokasi', function () {
-    return view('halaman_vaksin');
+Route::get('/vaksin', function () {
+    return view('daftar_vaksin');
 });
 
 Route::get('/profil', function () {
-    return view('para_pengguna');
+    return view('profil');
 });
 
 Route::get('/loading', function () {
