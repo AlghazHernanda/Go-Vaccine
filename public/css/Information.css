@@ -6,15 +6,10 @@ main{
 }
 
 body{
-    background-size: 70%;
+    background-size: 75%;
     background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
     background-position: center;
-    background-position-y: 30px;
-    
-    
-    
+    background-position-y: 50px;
 }
 
 nav{
@@ -26,12 +21,21 @@ footer{
     height:auto ; 
     width: 100%;
     background-color: #70ccb4; 
-    padding: 18px; text-align: center;
+    padding: 18px; 
+    text-align: center;
     color: white;
-    position:absolute ;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
     
 }
+
+button {
+    margin-top: 85%;
+    font-family: 'montserrat';
+}
+
+
+

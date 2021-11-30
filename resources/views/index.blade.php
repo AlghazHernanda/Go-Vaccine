@@ -35,7 +35,7 @@
                         Vaksin Sinovac
                     </button>
                     <button style="border-color: #038E79;padding-left: 5%; padding-right: 5%; margin-top: 20px; margin-left: 5%; background-color :#fdfdfd; color: #038E79;" type="btn-border-radius " class="btn  btn-border-radius-sm;">
-                        Vaksin Genexine
+                        Vaksin Pfizer
                     </button>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                         Vaksin Sinopharm
                     </button>
                     <button style="border-color: #038E79;padding-left: 5%; padding-right: 5%; margin-top: 20px; margin-left: 5% ;background-color :#fdfdfd; color: #038E79;" type="btn-border-radius " class="btn  btn-border-radius-sm;">
-                        Vaksin Cansino
+                        Vaksin Sputnik V
                     </button>
                 </div>
             </div>

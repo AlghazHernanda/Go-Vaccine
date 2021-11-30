@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/loadingStyle.css">
-    <title>Form Loading</title>
+    <link rel="stylesheet" href="css/Information.css">
+    <title>Information Page</title>
 </head>
 
-<body style="background-image:url(img/loading_background.jpg);">
+<body style="background-image:url(img/informasi.jpg);">
 <nav class="navbar navbar-expand-lg navbar-dark shadow " style="background-color: #70ccb4;">
         <div class="container" style="font-family:Montserrat;">
             <a class="navbar-brand" style="font-size: 30px; font-family: arial;" href="/">Govac</a>
@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" style="margin-right: 50px; color: white; border-radius: 110px;" href="/information">Vaksin</a>
+                        <a class="nav-link" href="#" style="margin-right: 50px; color: white; border-radius: 110px;" href="/information">Vaksin</a>
                     </li>
                     <!-- IF BELOM LOGIN -->
                     <li class="nav-item" style="background-color: #70ccb4; ">                   
@@ -39,6 +39,13 @@
     <nav style="padding: 40px;">
         <p></p>
     </nav>
+
+    <div class="text-center">
+        <a href="/lokasi">
+        <button type="button" class="btn btn-danger" style="color: white;font-size:20px;">Daftar Vaksinasi
+    </button>
+    </a>
+</div>
     
     <footer>
         Copyright 2021 Himatif Unpad

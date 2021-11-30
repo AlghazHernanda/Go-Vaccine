@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="margin-right: 50px; color: white; border-radius: 110px;">Vaksin</a>
+                        <a class="nav-link"  style="margin-right: 50px; color: white; border-radius: 110px;" href="/information">Vaksin</a>
                     </li>
                     <!-- IF BELOM LOGIN -->
                     <li class="nav-item" style="background-color: #70ccb4; ">                   
@@ -33,3 +33,4 @@
             </div>
         </div>
     </nav>
+</body>
