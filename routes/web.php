@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,38 +15,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes();
 Route::resource('user', UsersController::class);
-
-Route::get('/', function () {
-    return view('index');
-});
-
 Route::get('/about', function () {
     return view('about');
 });
-
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/register', function () {
-    return view('register');
-});
-
 Route::get('/vaksin', function () {
     return view('daftar_vaksin');
 });
-
-Route::get('/profil', function () {
-    return view('profil');
-});
-
+Route::get('/profil', [App\Http\Controllers\RecordController::class, 'index'])->name('home');
 Route::get('/loading', function () {
     return view('loading');
 });
-
 Route::get('/information', function () {
     return view('Information');
 });
-
 

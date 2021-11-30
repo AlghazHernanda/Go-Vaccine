@@ -27,14 +27,27 @@
                     <li class="nav-item">
                         <a class="nav-link"  style="margin-right: 50px; color: white; border-radius: 110px;" href="/information">Vaksin</a>
                     </li>
-                    <!-- IF BELOM LOGIN -->
+                    @guest                    <!-- IF BELOM LOGIN -->
                     <li class="nav-item" style="background-color: #70ccb4; ">                   
-                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/register">Daftar<a>
+                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/login">Login<a>
                     </li>
-                    <!-- Else Sudah login-->
-                    <!-- <li class="nav-item" style="background-color: #70ccb4; ">                   
-                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/profil">User<a>
-                    </li> -->
+                    @else                    <!-- Else Sudah login-->
+                    <li class="nav-item" style="background-color: #70ccb4; ">                   
+                        <a class="nav-link"  style="margin-right: 50px; color: white; border-radius: 110px;" href="/profil">{{ Auth::user()->nama }}<a>
+                    </li>
+                    <li class="nav-item" style="background-color: #70ccb4; ">                   
+                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                        </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                        </form>
+                    </li>
+                    @endguest
+                    
                 </ul>
             </div>
         </div>
@@ -45,27 +58,27 @@
         <div class="row align-items-start" style="width: 100%;">
             <div class="col">
                 <h3>Nama</h3>
-                <p class="Nama Pengguna">Name</p>
+                <p class="Nama Pengguna">{{ Auth::user()->nama }}</p>
             </div>
             <div class="col">
                 <h3>Nik</h3>
-                <p class="NIK Pengguna">Nama</p>
+                <p class="NIK Pengguna">{{ Auth::user()->nik }}</p>
             </div>
         </div>
 
         <div class="row align-items-start" style="width: 100%;">
             <div class="col">
                 <h3>Tgl lahir</h3>
-                <p class="Tgl Lahir Pengguna">Dates</p>
+                <p class="Tgl Lahir Pengguna">{{ Auth::user()->tanggal_lahir }}</p>
             </div>
             <div class="col">
                 <h3>No Hp</h3>
-                <p class="No HP Pengguna">Number</p>
+                <p class="No HP Pengguna">{{ Auth::user()->no_hp }}</p>
             </div>
         </div>
 
         <h3>Alamat</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, quo ut dignissimos asperiores temporibus porro laboriosam enim rem numquam adipisci deserunt alias. Voluptatem illo natus vel quas atque incidunt delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellat rerum mollitia quas impedit possimus praesentium enim saepe eaque repudiandae facere, omnis quo et nemo cumque, sequi veritatis. Ad, iure.</p>
+        <p>{{ Auth::user()->alamat }}</p>
     </div>
 
     <div class="container">
@@ -79,21 +92,15 @@
                     <th scope="col">Keterangan</th>
                 </tr>
             </thead>
-            <tbody class="isitabel">
+            @foreach($records as $r)
                 <tr>
-                    <td>1</td>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>asade</td>
+                    <td>{{$r->id}}</td>
+                    <td>{{$r->vaksin}}</td>
+                    
+                    <td>{{$r->tanggal_vaksin}}</td>
+                    <td>{{$r->status}}</td>
                 </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                    <td>asade</td>
-                </tr>
+            @endforeach
             </tbody>
         </table>
     </div>

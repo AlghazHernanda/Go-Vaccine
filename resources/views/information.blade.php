@@ -21,16 +21,29 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="margin-right: 50px; color: white; border-radius: 110px;" href="/information">Vaksin</a>
+                        <a class="nav-link"  style="margin-right: 50px; color: white; border-radius: 110px;" href="/information">Vaksin</a>
                     </li>
-                    <!-- IF BELOM LOGIN -->
+                    @guest                    <!-- IF BELOM LOGIN -->
                     <li class="nav-item" style="background-color: #70ccb4; ">                   
-                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/register">Daftar<a>
+                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/login">Login<a>
                     </li>
-                    <!-- Else Sudah login-->
-                    <!-- <li class="nav-item" style="background-color: #70ccb4; ">                   
-                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/profil">User<a>
-                    </li> -->
+                    @else                    <!-- Else Sudah login-->
+                    <li class="nav-item" style="background-color: #70ccb4; ">                   
+                        <a class="nav-link"  style="margin-right: 50px; color: white; border-radius: 110px;" href="/profil">{{ Auth::user()->nama }}<a>
+                    </li>
+                    <li class="nav-item" style="background-color: #70ccb4; ">                   
+                        <a style="border-color: white; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                        </a>
+
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                        </form>
+                    </li>
+                    @endguest
+                    
                 </ul>
             </div>
         </div>

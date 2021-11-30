@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4
+class ComposerStaticInit8ee715b7860581efdd0764587d97d1dc
 {
     public static $files = array (
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
@@ -534,7 +534,8 @@ class ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
-        'App\\Http\\Controllers\\UsersController' => __DIR__ . '/../..' . '/app/Http/Controllers/UsersController.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/LoginController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -922,6 +923,7 @@ class ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4
         'Facade\\Ignition\\Logger\\FlareHandler' => __DIR__ . '/..' . '/facade/ignition/src/Logger/FlareHandler.php',
         'Facade\\Ignition\\Middleware\\AddDumps' => __DIR__ . '/..' . '/facade/ignition/src/Middleware/AddDumps.php',
         'Facade\\Ignition\\Middleware\\AddEnvironmentInformation' => __DIR__ . '/..' . '/facade/ignition/src/Middleware/AddEnvironmentInformation.php',
+        'Facade\\Ignition\\Middleware\\AddExceptionInformation' => __DIR__ . '/..' . '/facade/ignition/src/Middleware/AddExceptionInformation.php',
         'Facade\\Ignition\\Middleware\\AddGitInformation' => __DIR__ . '/..' . '/facade/ignition/src/Middleware/AddGitInformation.php',
         'Facade\\Ignition\\Middleware\\AddJobInformation' => __DIR__ . '/..' . '/facade/ignition/src/Middleware/AddJobInformation.php',
         'Facade\\Ignition\\Middleware\\AddLogs' => __DIR__ . '/..' . '/facade/ignition/src/Middleware/AddLogs.php',
@@ -2209,6 +2211,7 @@ class ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4
         'Illuminate\\Foundation\\Testing\\RefreshDatabase' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php',
         'Illuminate\\Foundation\\Testing\\RefreshDatabaseState' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/RefreshDatabaseState.php',
         'Illuminate\\Foundation\\Testing\\TestCase' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/TestCase.php',
+        'Illuminate\\Foundation\\Testing\\Traits\\CanConfigureMigrationCommands' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/Traits/CanConfigureMigrationCommands.php',
         'Illuminate\\Foundation\\Testing\\WithFaker' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/WithFaker.php',
         'Illuminate\\Foundation\\Testing\\WithoutEvents' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/WithoutEvents.php',
         'Illuminate\\Foundation\\Testing\\WithoutMiddleware' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/Testing/WithoutMiddleware.php',
@@ -2630,6 +2633,7 @@ class ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4
         'Illuminate\\View\\Compilers\\Concerns\\CompilesHelpers' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesHelpers.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesIncludes' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesIncludes.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesInjections' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesInjections.php',
+        'Illuminate\\View\\Compilers\\Concerns\\CompilesJs' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesJs.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesJson' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesJson.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesLayouts' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesLayouts.php',
         'Illuminate\\View\\Compilers\\Concerns\\CompilesLoops' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesLoops.php',
@@ -5371,6 +5375,7 @@ class ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4
         'Symfony\\Contracts\\HttpClient\\Test\\HttpClientTestCase' => __DIR__ . '/..' . '/symfony/http-client-contracts/Test/HttpClientTestCase.php',
         'Symfony\\Contracts\\HttpClient\\Test\\TestHttpServer' => __DIR__ . '/..' . '/symfony/http-client-contracts/Test/TestHttpServer.php',
         'Symfony\\Contracts\\Service\\Attribute\\Required' => __DIR__ . '/..' . '/symfony/service-contracts/Attribute/Required.php',
+        'Symfony\\Contracts\\Service\\Attribute\\SubscribedService' => __DIR__ . '/..' . '/symfony/service-contracts/Attribute/SubscribedService.php',
         'Symfony\\Contracts\\Service\\ResetInterface' => __DIR__ . '/..' . '/symfony/service-contracts/ResetInterface.php',
         'Symfony\\Contracts\\Service\\ServiceLocatorTrait' => __DIR__ . '/..' . '/symfony/service-contracts/ServiceLocatorTrait.php',
         'Symfony\\Contracts\\Service\\ServiceProviderInterface' => __DIR__ . '/..' . '/symfony/service-contracts/ServiceProviderInterface.php',
@@ -5534,10 +5539,10 @@ class ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit30576a25ca4be4eac80344ccc4bd1ce4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8ee715b7860581efdd0764587d97d1dc::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8ee715b7860581efdd0764587d97d1dc::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8ee715b7860581efdd0764587d97d1dc::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8ee715b7860581efdd0764587d97d1dc::$classMap;
 
         }, null, ClassLoader::class);
     }
