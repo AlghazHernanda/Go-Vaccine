@@ -32,3 +32,4 @@ Route::get('/information', function () {
     return view('Information');
 });
 
+Route::get('/daftar_vaksin', [HomeController::class, 'daftar_vaksin']);
