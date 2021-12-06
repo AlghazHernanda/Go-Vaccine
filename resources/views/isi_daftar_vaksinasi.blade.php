@@ -62,7 +62,7 @@
                         @csrf
                         <div class="form-group">
                             <label for="nama">Nama Vaksin</label>
-                            <select class="form-select" aria-label="Default select example" style="font-family:Montserrat; color:#70ccb4" name="jenis_vaksin">
+                            <select class="form-select" aria-label="Default select example" style="font-family:Montserrat; color:#70ccb4" name="vaksin">
                                 <option selected>Jenis-Jenis Vaksin</option>
                                 <option value="Sinovac">Sinovac</option>
                                 <option value="Pfizer">Pfizer</option>
@@ -72,7 +72,7 @@
     
                         <div class="form-group">
                             <label for="lokasi">Lokasi</label>
-                            <select class="form-select" aria-label="Default select example" style="font-family:Montserrat; color:#70ccb4" name="lokasi">
+                            <select class="form-select" aria-label="Default select example" style="font-family:Montserrat; color:#70ccb4" name="tempat_vaksin">
                                 <option selected>Pilih Klinik</option>
                                 <option value="1" >Klinik 1</option>
                                 <option value="2">Klinik 2</option>
@@ -82,8 +82,10 @@
     
                         <div class="form-group">
                             <label for="tanggal">Tanggal</label>
-                            <input type="date" name="tanggal_vaksin" class="form-control" placeholder="indonesia">
+                            <input type="datetime-local" name="tanggal_vaksin" class="form-control" placeholder="">
                         </div>
+                        <input hidden name="status" value="Diproses">
+                        <input hidden name="user_id" value={{ Auth::user()->id }}>
 
                         
     

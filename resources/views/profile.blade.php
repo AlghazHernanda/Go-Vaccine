@@ -96,7 +96,7 @@
                 <tr>
                     <td>{{$r->id}}</td>
                     <td>{{$r->vaksin}}</td>
-                    
+                    <td>{{$r->tempat_vaksin}}</td>
                     <td>{{$r->tanggal_vaksin}}</td>
                     <td>{{$r->status}}</td>
                 </tr>

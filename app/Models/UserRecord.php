@@ -11,7 +11,7 @@ use Laravel\Sanctum\HasApiTokens;
 class UserRecord extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
-    protected $table = 'artikels';
+    protected $table = 'user_records';
     protected $primaryKey = 'id';
     /**
      * The attributes that are mass assignable.

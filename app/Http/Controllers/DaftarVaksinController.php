@@ -3,11 +3,25 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\DaftarVaksinModel;
+use App\Models\UserRecord;
 use App\Http\Controllers\Controller;
 
 class DaftarVaksinController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    public function daftar_vaksin()
+    {
+        return view('daftar_vaksin');
+    }
+
+    public function isi_daftar_vaksinasi()
+    {
+        return view('isi_daftar_vaksinasi');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -15,10 +29,6 @@ class DaftarVaksinController extends Controller
      */
     public function index()
     {
-        $data = DaftarVaksinModel::all();
-        return view('profile')->with([
-            'data' => $data
-        ]);
     }
 
     /**
@@ -40,8 +50,8 @@ class DaftarVaksinController extends Controller
     public function store(Request $request)
     {
         $data = $request->except(['_token']);
-        DaftarVaksinModel::insert($data); // buat masukin data
-        return redirect('/');
+        UserRecord::insert($data); // buat masukin data
+        return redirect('/loading');
     }
 
     /**

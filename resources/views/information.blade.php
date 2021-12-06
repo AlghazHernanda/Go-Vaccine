@@ -54,7 +54,7 @@
     </nav>
 
     <div class="text-center">
-        <a href="/lokasi">
+        <a href="/daftar_vaksin">
         <button type="button" class="btn btn-danger" style="color: white;font-size:20px;">Daftar Vaksinasi
     </button>
     </a>
