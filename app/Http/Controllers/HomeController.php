@@ -27,4 +27,9 @@ class HomeController extends Controller
     {
         return view('daftar_vaksin');
     }
+
+    public function isi_daftar_vaksinasi()
+    {
+        return view('isi_daftar_vaksinasi');
+    }
 }

@@ -38,9 +38,9 @@
           <td>Tersedia</td>
           <td>255</td>
           <td>
-            <button style="background-color: #F17073; color: white; width: 120px;" class="btn  btn-border-radius-sm;">
+            <a href="/isi_daftar_vaksinasi" style="background-color: #F17073; color: white; width: 120px;" class="btn  btn-border-radius-sm;">
               Daftar
-            </button>
+            </a>
           </td>
         </tr>
         <tr>
@@ -49,7 +49,7 @@
           <td>Penuh</td>
           <td>300</td>
           <td>
-            <button style="background-color: #F17073; color: white; width: 120px;" class="btn  btn-border-radius-sm;">
+            <a href="/isi_daftar_vaksinasi" style="background-color: #F17073; color: white; width: 120px;" class="btn  btn-border-radius-sm;">
               Daftar
             </button>
           </td>

@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\DaftarVaksinController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HomeController;
+use App\Models\DaftarVaksinModel;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,4 +34,9 @@ Route::get('/information', function () {
     return view('Information');
 });
 
+
+
 Route::get('/daftar_vaksin', [HomeController::class, 'daftar_vaksin']);
+Route::get('/isi_daftar_vaksinasi', [HomeController::class, 'isi_daftar_vaksinasi']);
+Route::post('/store', [DaftarVaksinController::class, 'store']);
+//Route::get('/profil', [DaftarVaksinController::class, 'index']);
