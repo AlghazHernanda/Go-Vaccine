@@ -18,7 +18,7 @@ class CreateUserRecords extends Migration
             $table->biginteger('user_id')->unsigned(); 
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('vaksin',16);
-            $table->date('tanggal_vaksin');
+            $table->datetime('tanggal_vaksin');
             $table->string('tempat_vaksin');
             $table->string('status',16);
             $table->timestamps();
