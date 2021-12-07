@@ -65,8 +65,14 @@
                             <select class="form-select" aria-label="Default select example" style="font-family:Montserrat; color:#70ccb4" name="vaksin">
                                 <option selected>Jenis-Jenis Vaksin</option>
                                 <option value="Sinovac">Sinovac</option>
-                                <option value="Pfizer">Pfizer</option>
                                 <option value="AstraZeneca">AstraZeneca</option>
+                                <option value="BioFarma">BioFarma</option>
+                                <option value="Sinopharm">Sinopharm</option>
+                                <option value="Moderna">Moderna</option>
+                                <option value="Pfizer">Pfizer</option>
+                                <option value="SputnikV">SputnikV</option>
+                                <option value="Janssen">Janssen</option>
+                                <option value="Convidecia">Convidecia</option>
                               </select>
                         </div>
     
