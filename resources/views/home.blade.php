@@ -17,8 +17,12 @@
             <p>Mari <b style="color: #038E79;"> Vaksin </b></p>
             <p>Demi Keluarga</p>
             <p>di Rumah !</p>
+            
+            <a href="/information">
             <button style="border-color: white;padding-left: 10%; padding-right: 10%; margin-top: 20px; background-color :#038E79; color: white;" type="btn-border-radius " class="btn  btn-border-radius-sm;">Selengkapnya
             </button>
+            </a>
+
         </div>
     </div>
     <div class="informasi akhir" style=" width:50% ; margin-left: 50%; ">

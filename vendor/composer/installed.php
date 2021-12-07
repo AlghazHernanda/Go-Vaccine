@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '0dbe4f54d33fa2bbfe965991489afbe6f3451959',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -395,12 +395,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '0dbe4f54d33fa2bbfe965991489afbe6f3451959',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -440,12 +440,12 @@
             'dev_requirement' => false,
         ),
         'laravel/ui' => array(
-            'pretty_version' => 'v3.3.3',
-            'version' => '3.3.3.0',
+            'pretty_version' => 'v3.4.0',
+            'version' => '3.4.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/ui',
             'aliases' => array(),
-            'reference' => '08ea313a35dfc89ff0cd9916ca0bcef9715d0ed6',
+            'reference' => 'b3e804559bf3973ecca160a4ae1068e6c7c167c6',
             'dev_requirement' => false,
         ),
         'league/commonmark' => array(

@@ -40,3 +40,7 @@ Route::get('/daftar_vaksin', [DaftarVaksinController::class, 'daftar_vaksin']);
 Route::get('/isi_daftar_vaksinasi', [DaftarVaksinController::class, 'isi_daftar_vaksinasi']);
 Route::post('/store', [DaftarVaksinController::class, 'store']);
 //Route::get('/profil', [DaftarVaksinController::class, 'index']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -90,6 +90,7 @@
                         
     
                         <div class="form-group mt-2">
+                            <a href="/loading"></a>
                             <button type="submit" class="btn btn-primary">Tambah Vaksin</button>
                         </div>
     
