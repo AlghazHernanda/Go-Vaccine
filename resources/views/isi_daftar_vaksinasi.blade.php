@@ -80,12 +80,12 @@
                             <label for="lokasi">Lokasi</label>
                             <select class="form-select" aria-label="Default select example" style="font-family:Montserrat; color:#70ccb4" name="tempat_vaksin">
                                 <option selected>Pilih Klinik</option>
-                                <option value="1" >Klinik Utama Perisai Husada</option>
-                                <option value="2">Klinik Utama Melati Bunda</option>
-                                <option value="3">Klinik Utama Medika Antapani</option>
-                                <option value="4">Klinik Utama Netra</option>
-                                <option value="5">Klinik Utama Monalisa</option>
-                                <option value="6">Klinik Utama Jiwa GRHA Atma</option>
+                                <option value="PerisaiHusada" >Klinik Utama Perisai Husada</option>
+                                <option value="MelatiBunda">Klinik Utama Melati Bunda</option>
+                                <option value="MedikaAntapani">Klinik Utama Medika Antapani</option>
+                                <option value="Netra">Klinik Utama Netra</option>
+                                <option value="Monalisa">Klinik Utama Monalisa</option>
+                                <option value="Atma">Klinik Utama Jiwa GRHA Atma</option>
                               </select>
                         </div>
     
