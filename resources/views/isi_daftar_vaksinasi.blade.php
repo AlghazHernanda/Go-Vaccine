@@ -61,7 +61,7 @@
                     <form action="{{ url('store') }}" method="POST" enctype="multipart/form-data" >
                         @csrf
                         <div class="form-group">
-                            <label for="nama">Nama Vaksin</label>
+                            <label style = "color : #263238; font-family:Montserrat;" for="nama">Nama Vaksin</label>
                             <select class="form-select" aria-label="Default select example" style="font-family:Montserrat; color:#70ccb4" name="vaksin">
                                 <option selected>Jenis-Jenis Vaksin</option>
                                 <option value="Sinovac">Sinovac</option>
@@ -77,7 +77,7 @@
                         </div>
     
                         <div class="form-group">
-                            <label for="lokasi">Lokasi</label>
+                            <label style = "color : #263238" for="lokasi">Lokasi</label>
                             <select class="form-select" aria-label="Default select example" style="font-family:Montserrat; color:#70ccb4" name="tempat_vaksin">
                                 <option selected>Pilih Klinik</option>
                                 <option value="PerisaiHusada" >Klinik Utama Perisai Husada</option>
@@ -90,8 +90,8 @@
                         </div>
     
                         <div class="form-group">
-                            <label for="tanggal">Tanggal</label>
-                            <input type="datetime-local" name="tanggal_vaksin" class="form-control" placeholder="">
+                            <label style = "color : #263238" for="tanggal">Tanggal</label>
+                            <input style = "color : #70ccb4" type="datetime-local" name="tanggal_vaksin" class="form-control" placeholder="">
                         </div>
                         <input hidden name="status" value="Diproses">
                         <input hidden name="user_id" value={{ Auth::user()->id }}>
@@ -100,14 +100,10 @@
     
                         <div class="form-group mt-2">
                             <a href="/loading"></a>
-                            <button type="submit" class="btn btn-primary">Tambah Vaksin</button>
+                            <button type="submit" class="btn btn-success">Tambah Vaksin</button>
                         </div>
     
-                        <div class="form-group mt-2">
-                           <a href="{{ url('/') }}">
-                        << kembali ke halaman utama
-                        </a>
-                        </div>
+                        
                     </form>
                 </div>
     

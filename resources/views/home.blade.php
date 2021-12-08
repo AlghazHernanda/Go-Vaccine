@@ -65,7 +65,7 @@
 
     <div class="tombol-daftar">
         <div>
-    <a style="background-color:#038E79; border-color: green; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="{{ url('daftar_vaksin') }}">Daftar Vaksin Disini</a>
+    <a style="background-color:#038E79; border-color: green; color: white; width: 120px;" type="btn-border-radius " class="btn  btn-border-radius-sm;" href="/isi_daftar_vaksinasi">Daftar Vaksin</a>
     
         </div>
     </div>
