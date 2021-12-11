@@ -53,7 +53,7 @@ class RegisterController extends Controller
             'nik' => ['required', 'string', 'max:16'],
             'nama' => ['required', 'string', 'max:255'],
             'tempat_lahir' => ['required', 'string', 'max:255'],
-            'tanggal_lahir' => ['required'],
+            'tanggal_lahir' => ['required','date'],
             'alamat' => ['required', 'string', 'max:255'],
             'no_hp' => ['required', 'string', 'max:13'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
