@@ -31,7 +31,7 @@ Route::get('/loading', function () {
     return view('loading');
 });
 Route::get('/information', function () {
-    return view('Information');
+    return view('information');
 });
 
 
